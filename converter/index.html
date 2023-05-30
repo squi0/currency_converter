@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Currency Converter</h1>
+    <div id="exchange-rate"></div>
+  </header>
+  <main>
+    <div class="currency-converter">
+      <div class="input-group">
+        <input type="number" id="amount1" min="0" step="0.01">
+        <select id="currency1">
+          <option value="UAH">UAH</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <input type="number" id="amount2" min="0" step="0.01">
+        <select id="currency2">
+          <option value="UAH">UAH</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+        </select>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
